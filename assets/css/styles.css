@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+
+*, *::after, *::before { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* GENERAL */
+
+.flex-container {
+    display: flex;
+}
+
+.menu-users {
+    width: 280px;
+    box-shadow: 0 0 0 1px #BEC1BB;
+    margin: 0 1px 1px 1px; 
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+/* MAIN USER SETTINGS */
+
+.user-container {
+    padding: 0 20px;
+    height: 100px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.thumbnail-small {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #E8EBE4;
+}
+
+.user-data {
+    padding-left: 10px;
+}
+
+.user-status {
+    font-size: 13px;
+    color: #BEC1BB;
+}
+
+.user-icons {
+    width: 65px;
+    justify-content: space-between;
+}
+
+.user-icons i {
+    align-self: center;
+    color: #444749;
+}
+
+/* BUTTON */
+
+.menu-button {
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    background-color: #A491D2;
+    padding: 15px 50px;
+    margin: 40px;
+}
+
+.button:hover {
+    background-color: #CDC3E6;
+    transition: background-color 50ms ease-in;
+}
+
+.button:focus {
+    background-color: #BEC1BB;
+    transition: background-color 50ms ease-in;
+}
+
+/* USER LIST SETTINGS */
+
+.available-users {
+    padding: 0 20px;
+    height: 100px;
+}
+
+.available-users-box {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thumbnail-med {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 2px solid #E8EBE4;
+}
+
+.available-users-box {
+    padding-left: 10px;
+}
+
+.available-users-inf {
+    font-size: 15px;
+}
+
+/* MAIN AREA */
+
+.main-content {
+    background-color: #F5F5F5;
+    width: calc(100% - 270px);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.main-logo {
+    width: 400px;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.main-text {
+    max-width: 500px;
+    line-height: 1.4;
+    align-self: center;
+}
